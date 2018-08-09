@@ -1,0 +1,137 @@
+body
+{
+	background-color:#FCFCFC;
+}
+h1 {
+	font-family: 'Cabin Sketch', cursive;
+	font-size:30px;
+	letter-spacing:2px;
+	margin-left:20px;
+	display:inline-block;
+}
+.h1_search
+{
+	
+	width:100%;
+}
+input
+{
+	/*display:inline-block;*/
+	margin-left:18%;
+	height:30px;
+	outline:none;
+	margin-right:35px;
+	border-radius:6%;
+	border:transparent;
+	background-color:mediumturquoise;
+	transition: background-color .7s ease-out;
+}
+input[placeholder]
+{
+	font-size:20px;
+	font-family:'Courgette', cursive;
+	color:black;
+	
+	
+}
+input:hover,
+input:focus
+{
+	background-color:mistyrose;
+}
+.container
+{
+	width:90%;
+	height:90%;
+	margin:auto;
+	/*border:solid black 3px;*/
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-gap:30px;
+	
+}
+ .details
+{
+	display:inline;
+	float:left;
+	margin-left:10px;
+	color:black;
+	font-family: 'Courgette', cursive;
+}
+img
+{
+	margin-left:30px;
+	border-radius:50%;
+	float:right;
+	margin-right:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+	/*border:black solid 2px;*/
+}
+.item-0,
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7,
+.item-8,
+.item-9,
+.item-10,
+.item-11
+
+{
+	border:solid grey 1px;
+	border-radius:3%;
+	color:#FFFFFF;
+	transition: background-color .7s ease-out;
+
+}
+.item-0:hover,
+.item-0:focus
+{
+	background-color:mediumturquoise;
+}
+.heading
+{
+	font-weight:800;
+	color:black;
+	font-size:20px;
+}
+.email
+{
+	font-size:17px;
+	color:deeppink;
+}
+.place
+{
+	font-size:17px;
+	color:deeppink;
+}
+button {
+    border: none;
+    padding: 4px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	 background-color: white; 
+    color: black; 
+    border: 2px solid mediumturquoise;
+	font-weight:800;
+	letter-spacing:2px;
+	border-radius:9%;
+	
+}
+button:hover {
+    background-color: mediumturquoise;
+    color: white;
+}
+ul {
+  list-style: none;
+}
